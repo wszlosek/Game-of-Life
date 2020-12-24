@@ -84,8 +84,10 @@ class Points:
     def create(self):
         X = [x[0] for x in self.Ptr]
         Y = [x[1] for x in self.Ptr]
-        plt.plot(X, Y, 'ro')
+        plt.plot(X, Y, 'ro', color='white')
         plt.axis([0, self.a, 0, self.b])
+        self.axi = plt.axes()
+        self.axi.set_facecolor('black')
         plt.show()
 
     def isPoint(self, x, y):
