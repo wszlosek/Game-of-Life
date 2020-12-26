@@ -63,16 +63,20 @@ The remaining examples include the use of ready-made models. The name of the fun
     fig.gosper_glider_gun(grid, 15, 25)
 ```
 
+![example0](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex0.gif)
+
 #### Ex. 1
 ```python
     fig.random_grid(grid, 0.4)
 ```
+![example1](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex1.gif)
 
 #### Ex. 2
 ```python
     fig.pulsar(grid, 10, 10)
     fig.pulsar(grid, 40, 40)
 ```
+![example2](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex2.gif)
 
 #### Ex. 3
 Of course, we can combine various functions:
@@ -82,6 +86,7 @@ Of course, we can combine various functions:
     fig.loaf(grid, 50, 55)
     fig.heavyweight_spaceship(grid, 80, 80)
 ```
+![example3](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex3.gif)
 
 ## Status
 Complete program (as described), with the possibility of updating with new features in the future.
