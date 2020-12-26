@@ -9,7 +9,7 @@ def add_on(grid, *arg):
 
 
 
-''' RANDOM GRID'''
+''' RANDOM GRID '''
 
 
 def random_grid(grid, p=0.3):
@@ -22,7 +22,7 @@ def random_grid(grid, p=0.3):
 
 
 
-''' STILL LIFES'''
+''' STILL LIFES '''
 
 
 def block(grid, x=0, y=0):
@@ -114,7 +114,7 @@ def pentadecathlon(grid, x=0, y=0):
 
 
 
-''' SPACESHIPS'''
+''' SPACESHIPS '''
 
 
 def glider(grid, x=0, y=0):
