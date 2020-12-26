@@ -1,5 +1,7 @@
 # Game of Life
 
+Python implementation of "Game of Life" according to John Conway rules with animation.
+
 ## Table of contents
 * [General info](#general-info)
 * [Implementation ideas](#implementation-ideas)
