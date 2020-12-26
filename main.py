@@ -35,7 +35,7 @@ def animationn(i):
 
   mat.set_data(newGrid)
   grid = newGrid
-  
+
   return mat,
 
 
