@@ -91,4 +91,5 @@ Of course, we can combine various functions:
 ![example3](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex3.gif)
 
 ## Status
-The project has been completed and all its assumptions have been made.
+The project has been completed and all its assumptions have been made. \
+Possible addition of several "models" in the future.
