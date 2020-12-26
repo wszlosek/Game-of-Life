@@ -8,7 +8,7 @@ def add_on(grid, *arg):
     return grid
 
 
-def randomGrid(grid, p):
+def random_grid(grid, p=0.3):
     N = len(grid)
 
     for i in range(N):

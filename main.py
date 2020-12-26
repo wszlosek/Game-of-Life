@@ -4,7 +4,7 @@ import matplotlib.animation as animation
 import figures as fig
 
 
-N = 100
+N = 60
 
 
 def conway(count):
@@ -42,8 +42,8 @@ if __name__ == '__main__':
 
     grid = np.random.choice([0], N * N).reshape(N, N)
 
-    fig.randomGrid(grid, 0.3)
-    # fig.gosper_glider_gun(grid, 20, 30)
+    fig.pulsar(grid, 10, 10)
+    fig.pulsar(grid, 40, 40)
 
     plt.style.use('grayscale')
     fig, ax = plt.subplots()
@@ -51,4 +51,6 @@ if __name__ == '__main__':
     ax.plot()
     mat = ax.matshow(grid)
     ani = animation.FuncAnimation(fig, animationn, interval=50)
+
+    # ani.save("animation.gif")
     plt.show()
