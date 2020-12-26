@@ -4,7 +4,7 @@ import matplotlib.animation as animation
 import figures as fig
 
 
-N = 60
+N = 100
 
 
 def conway(count):
@@ -42,8 +42,10 @@ if __name__ == '__main__':
 
     grid = np.random.choice([0], N * N).reshape(N, N)
 
-    fig.pulsar(grid, 10, 10)
-    fig.pulsar(grid, 40, 40)
+    fig.gosper_glider_gun(grid, 10, 10)
+    fig.blinker(grid, 20, 30)
+    fig.loaf(grid, 50, 55)
+    fig.heavyweight_spaceship(grid, 80, 80)
 
     plt.style.use('grayscale')
     fig, ax = plt.subplots()

@@ -8,6 +8,10 @@ def add_on(grid, *arg):
     return grid
 
 
+
+''' RANDOM GRID'''
+
+
 def random_grid(grid, p=0.3):
     N = len(grid)
 
@@ -15,6 +19,7 @@ def random_grid(grid, p=0.3):
         for j in range(N):
             grid[i][j] = (choices([0, 1],
                                   [float(1.0 - p), p]))[0]
+
 
 
 ''' STILL LIFES'''
@@ -50,6 +55,7 @@ def boat(grid, x=0, y=0):
     tub(grid, x, y)
     x, y = y, x
     add_on(grid, (x, y))
+
 
 
 ''' OSCILLATORS '''
@@ -107,6 +113,7 @@ def pentadecathlon(grid, x=0, y=0):
     add_on(grid, (x + 1, y), (x + 1, y + 9))
 
 
+
 ''' SPACESHIPS'''
 
 
@@ -131,6 +138,8 @@ def heavyweight_spaceship(grid, x=0, y=0):
     x, y = y, x
     add_on(grid, (x + 1, y + 1), (x, y + 3), (x, y + 4),
            (x + 1, y + 6), (x + 3, y + 6))
+
+
 
 
 ''' GUNS '''
