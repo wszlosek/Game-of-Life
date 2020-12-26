@@ -1,16 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from random import choices
+import figures as fig
 
 
 N = 100
-
-
-def randomGrid(grid):
-    for i in range(N):
-        for j in range(N):
-            grid[i][j] = (choices([0, 1], [0.7, 0.3]))[0]
 
 
 def conway(count):
@@ -25,6 +19,7 @@ def conway(count):
 def animationn(i):
   global grid
   newGrid = grid.copy()
+
   for i in range(N):
     for j in range(N):
       nen = grid[i, (j-1)%N] + grid[i, (j+1)%N] + \
@@ -46,14 +41,14 @@ def animationn(i):
 if __name__ == '__main__':
 
     grid = np.random.choice([0], N * N).reshape(N, N)
-    randomGrid(grid)
+
+    fig.randomGrid(grid, 0.3)
+    # fig.gosper_glider_gun(grid, 20, 30)
 
     plt.style.use('grayscale')
-
     fig, ax = plt.subplots()
     fig.suptitle('Conway\'s Game of Life', fontsize=14)
     ax.plot()
     mat = ax.matshow(grid)
-
     ani = animation.FuncAnimation(fig, animationn, interval=50)
     plt.show()
