@@ -60,7 +60,7 @@ The remaining examples include the use of ready-made models. The name of the fun
 ```python
     ''' fragment of the "main" function: '''
 
-    fig.gosper_glider_gun(grid, 10, 20)
+    fig.gosper_glider_gun(grid, 15, 25)
 ```
 
 #### Ex. 1
