@@ -91,4 +91,4 @@ Of course, we can combine various functions:
 ![example3](https://github.com/wszlosek/Game-of-Life/blob/main/GIFs/ex3.gif)
 
 ## Status
-Complete program (as described), with the possibility of updating with new features in the future.
+The project has been completed and all its assumptions have been made.
