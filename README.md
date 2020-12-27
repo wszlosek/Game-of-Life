@@ -48,7 +48,7 @@ Then just run the program:
    python3 main.py
 ```
 ## Technologies
-The program was written in Python. Also needed were the "NumPy" and "Matplotlib" libraries which were used to generate the graph and the animation.
+The program was written in Python. Also needed were the "NumPy" and "Matplotlib" libraries which were used to generate the chart and the animation.
 
 ## Examples of program effects
 
